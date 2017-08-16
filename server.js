@@ -10,6 +10,11 @@ const io = require("socket.io")(server);
 io.on("connection", (socket) => {
 	console.log("Client connected");
 	socket.on("disconnect", () => console.log("client disconnected"));
+	socket.on("join", (data) => console.log(data));
+	socket.on("messages", (data) => {
+		socket.emit("thread", data);
+		socket.broadcast.emit("thread", data);
+	});
 });
 
 /*
