@@ -26,6 +26,10 @@ input[type=text]:focus {
     border: 3px solid #555;
 }
 
+input[type=text] {
+    padding: 16px 32px;
+}
+
 input[type=button], input[type=submit], input[type=reset] {
     background-color: #9aecf3;
     border: none;
