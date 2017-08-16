@@ -1,4 +1,4 @@
-const socket = io.connect(process.env.PORT);
+const socket = io.();
 
 socket.on("connect", (data) => socket.emit("join", "the client 🔥"));
 
