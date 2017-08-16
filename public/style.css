@@ -20,3 +20,7 @@
   li:nth-child(odd) { 
     background: #eee; 
   }
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
