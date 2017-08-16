@@ -22,6 +22,7 @@
   }
 
 input[type=text]:focus {
+    padding: 16px 32px;
     border: 3px solid #555;
 }
 
