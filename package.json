@@ -1,0 +1,30 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "A real time chat app created using nodejs/expressjs/socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinav042/realtime-chatapp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "chat-app",
+    "socket.io"
+  ],
+  "author": "Abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinav042/realtime-chatapp/issues"
+  },
+  "homepage": "https://github.com/abhinav042/realtime-chatapp#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
